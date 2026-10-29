@@ -1,1 +1,50 @@
-.vscode
+# ==========================================
+# Logs and Debugging
+# ==========================================
+*.log
+logs/
+*.out
+*.err
+
+# ==========================================
+# Temporary and Backup Files
+# ==========================================
+*.tmp
+*.temp
+tmp/
+*.bak
+*~
+
+# ==========================================
+# Credentials and Environment Variables
+# ==========================================
+# NEVER commit raw API keys, passwords, or tokens!
+.env
+.env.*
+!.env.example
+secrets/
+credentials.sh
+
+# ==========================================
+# Testing Frameworks (e.g., Bats)
+# ==========================================
+.bats-tests/
+bats/
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux / Vim / VS Code
+.vscode/
+.idea/
+.*.swp
+.*.swo
+.netrwhist
